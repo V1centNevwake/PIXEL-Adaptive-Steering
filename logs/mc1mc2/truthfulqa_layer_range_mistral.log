@@ -1,0 +1,41 @@
+
+
+[2025-10-05 15:22:30] INFO: [model] loaded in 3.07s
+[2025-10-05 15:22:30] INFO: [prompt] style=plain system=none
+[2025-10-05 15:22:36] INFO: TruthfulQA split: total=817 PROBE=200 DEV=216
+[2025-10-05 15:23:33] INFO: [subspace] extracted in 56.52s (layers=32)
+[2025-10-05 15:23:33] INFO: [baseline] evaluating 216 samples...
+[2025-10-05 15:23:52] INFO: [baseline] MC1=0.2222 MC2=0.3699
+[2025-10-05 15:23:52] INFO: [sample-subspace] extracting per-example residual vectors...
+[2025-10-05 15:23:54] INFO:   processed 25/216
+[2025-10-05 15:23:57] INFO:   processed 50/216
+[2025-10-05 15:23:59] INFO:   processed 75/216
+[2025-10-05 15:24:01] INFO:   processed 100/216
+[2025-10-05 15:24:04] INFO:   processed 125/216
+[2025-10-05 15:24:06] INFO:   processed 150/216
+[2025-10-05 15:24:08] INFO:   processed 175/216
+[2025-10-05 15:24:11] INFO:   processed 200/216
+[2025-10-05 15:24:12] INFO:   processed 216/216
+[2025-10-05 15:24:12] INFO: [residual] scale=-1.000 auto_flip=True log_cos=False
+[2025-10-05 15:25:20] INFO: [range 15-31] global MC1=0.2917 Δ=0.0694 MC2=0.4962 Δ=0.1264 ᾱ=5.715 nonzero=0.200 | +res MC1=0.3380 Δ=0.1157 MC2=0.4864 Δ=0.1165 ᾱ=5.089 nonzero=0.200 use=0.067 flip=0.619 neg=0.619
+
+
+
+[2025-10-05 15:31:54] INFO: [model] loaded in 3.46s
+[2025-10-05 15:31:54] INFO: [prompt] style=plain system=none
+[2025-10-05 15:32:00] INFO: TruthfulQA split: total=817 PROBE=200 DEV=216
+[2025-10-05 15:32:57] INFO: [subspace] extracted in 56.22s (layers=32)
+[2025-10-05 15:32:57] INFO: [baseline] evaluating 216 samples...
+[2025-10-05 15:33:16] INFO: [baseline] MC1=0.2222 MC2=0.3699
+[2025-10-05 15:33:16] INFO: [sample-subspace] extracting per-example residual vectors...
+[2025-10-05 15:33:18] INFO:   processed 25/216
+[2025-10-05 15:33:20] INFO:   processed 50/216
+[2025-10-05 15:33:23] INFO:   processed 75/216
+[2025-10-05 15:33:25] INFO:   processed 100/216
+[2025-10-05 15:33:27] INFO:   processed 125/216
+[2025-10-05 15:33:30] INFO:   processed 150/216
+[2025-10-05 15:33:32] INFO:   processed 175/216
+[2025-10-05 15:33:34] INFO:   processed 200/216
+[2025-10-05 15:33:36] INFO:   processed 216/216
+[2025-10-05 15:33:36] INFO: [residual] scale=1.000 auto_flip=True log_cos=False
+[2025-10-05 15:34:45] INFO: [range 15-31] global MC1=0.2593 Δ=0.0370 MC2=0.4846 Δ=0.1147 ᾱ=5.323 nonzero=0.184 | +res MC1=0.2778 Δ=0.0556 MC2=0.5065 Δ=0.1366 ᾱ=4.749 nonzero=0.184 use=0.046 flip=0.619 neg=0.619

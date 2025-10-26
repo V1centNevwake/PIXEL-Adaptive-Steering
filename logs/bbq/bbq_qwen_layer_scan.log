@@ -1,0 +1,128 @@
+
+[2025-09-28 04:04:05] INFO: [split] total=58492 PROBE=200 DEV=216
+[2025-09-28 04:04:08] INFO: [model] Qwen/Qwen2-7B-Instruct loaded on cuda:0
+[2025-09-28 04:04:34] INFO: [subspace] extracted in 26.32s | layers=28
+[2025-09-28 04:04:34] INFO: [baseline] computing (option-wise)...
+[2025-09-28 04:04:51] INFO: [baseline] N=216 | acc=0.6806
+[2025-09-28 04:04:51] INFO: [sample-subspace] extracting per-example orth residual vectors (216 examples)...
+[2025-09-28 04:04:53] INFO:   processed 25/216
+[2025-09-28 04:04:56] INFO:   processed 50/216
+[2025-09-28 04:04:58] INFO:   processed 75/216
+[2025-09-28 04:05:00] INFO:   processed 100/216
+[2025-09-28 04:07:18] INFO: [residual] scale=0.000 auto_flip=False log_cos=False
+[2025-09-28 04:07:18] INFO: [seed] 0
+[2025-09-28 04:07:41] INFO: [split] total=58492 PROBE=200 DEV=216
+[2025-09-28 04:07:44] INFO: [model] Qwen/Qwen2-7B-Instruct loaded on cuda:0
+[2025-09-28 04:08:10] INFO: [subspace] extracted in 26.54s | layers=28
+[2025-09-28 04:08:11] INFO: [baseline] computing (option-wise)...
+[2025-09-28 04:08:01] INFO: [baseline] N=216 | acc=0.6481
+[2025-09-28 04:08:01] INFO: [sample-subspace] extracting per-example orth residual vectors (216 examples)...
+[2025-09-28 04:08:29] INFO:   processed 25/216
+[2025-09-28 04:08:32] INFO:   processed 50/216
+[2025-09-28 04:08:34] INFO:   processed 75/216
+[2025-09-28 04:08:37] INFO:   processed 100/216
+[2025-09-28 04:08:39] INFO:   processed 125/216
+[2025-09-28 04:08:42] INFO:   processed 150/216
+[2025-09-28 04:08:44] INFO:   processed 175/216
+[2025-09-28 04:08:47] INFO:   processed 200/216
+[2025-09-28 04:08:48] INFO:   processed 216/216
+[2025-09-28 04:09:34] INFO: [layer 05] global acc=0.6389 Δ=-0.0093 ᾱ=2.000 nonzero=1.000 | +res acc=0.6389 Δ=-0.0093 ᾱ=2.000 nonzero=1.000 use=1.000 flip=0.000 neg=0.194
+[2025-09-28 04:10:21] INFO: [layer 06] global acc=0.6435 Δ=-0.0046 ᾱ=2.000 nonzero=1.000 | +res acc=0.6435 Δ=-0.0046 ᾱ=2.000 nonzero=1.000 use=1.000 flip=0.000 neg=0.000
+[2025-09-28 04:15:10] INFO: [residual] scale=0.000 auto_flip=False log_cos=False
+[2025-09-28 04:15:10] INFO: [seed] 0
+[2025-09-28 04:15:35] INFO: [split] total=58492 PROBE=200 DEV=216
+[2025-09-28 04:15:38] INFO: [model] Qwen/Qwen2-7B-Instruct loaded on cuda:0
+[2025-09-28 04:16:04] INFO: [subspace] extracted in 26.40s | layers=28
+[2025-09-28 04:16:04] INFO: [baseline] computing (option-wise)...
+[2025-09-28 04:16:20] INFO: [baseline] N=216 | acc=0.6481
+[2025-09-28 04:16:20] INFO: [sample-subspace] extracting per-example orth residual vectors (216 examples)...
+[2025-09-28 04:16:23] INFO:   processed 25/216
+[2025-09-28 04:16:25] INFO:   processed 50/216
+[2025-09-28 04:16:28] INFO:   processed 75/216
+[2025-09-28 04:16:30] INFO:   processed 100/216
+[2025-09-28 04:16:33] INFO:   processed 125/216
+[2025-09-28 04:18:44] INFO: [residual] scale=0.000 auto_flip=False log_cos=False
+[2025-09-28 04:18:44] INFO: [seed] 0
+[2025-09-28 04:19:08] INFO: [split] total=58492 PROBE=200 DEV=216
+[2025-09-28 04:19:11] INFO: [model] Qwen/Qwen2-7B-Instruct loaded on cuda:0
+[2025-09-28 04:19:35] INFO: [subspace] extracted in 23.99s | layers=28
+[2025-09-28 04:19:35] INFO: [baseline] computing (option-wise)...
+[2025-09-28 04:19:52] INFO: [baseline] N=216 | acc=0.6481
+[2025-09-28 04:19:52] INFO: [sample-subspace] extracting per-example orth residual vectors (216 examples)...
+[2025-09-28 04:19:54] INFO:   processed 25/216
+[2025-09-28 04:19:57] INFO:   processed 50/216
+[2025-09-28 04:19:59] INFO:   processed 75/216
+[2025-09-28 04:21:12] INFO: [residual] scale=0.000 auto_flip=False log_cos=False
+[2025-09-28 04:21:12] INFO: [seed] 0
+[2025-09-28 04:21:36] INFO: [split] total=58492 PROBE=200 DEV=200
+[2025-09-28 04:21:39] INFO: [model] Qwen/Qwen2-7B-Instruct loaded on cuda:0
+[2025-09-28 04:22:04] INFO: [subspace] extracted in 25.30s | layers=28
+[2025-09-28 04:22:04] INFO: [baseline] computing (option-wise)...
+[2025-09-28 04:22:20] INFO: [baseline] N=200 | acc=0.6400
+[2025-09-28 04:22:20] INFO: [sample-subspace] extracting per-example orth residual vectors (200 examples)...
+[2025-09-28 04:22:22] INFO:   processed 25/200
+[2025-09-28 04:22:25] INFO:   processed 50/200
+[2025-09-28 04:22:01] INFO:   processed 75/200
+[2025-09-28 04:22:30] INFO:   processed 100/200
+[2025-09-28 04:22:32] INFO:   processed 125/200
+[2025-09-28 04:22:35] INFO:   processed 150/200
+[2025-09-28 04:22:37] INFO:   processed 175/200
+[2025-09-28 04:30:55] INFO: [residual] scale=0.000 auto_flip=False log_cos=False
+[2025-09-28 04:30:55] INFO: [seed] 0
+[2025-09-28 04:31:19] INFO: [split] total=58492 PROBE=200 DEV=216
+[2025-09-28 04:31:22] INFO: [model] Qwen/Qwen2-7B-Instruct loaded on cuda:0
+[2025-09-28 04:31:47] INFO: [subspace] extracted in 25.38s | layers=28
+[2025-09-28 04:31:48] INFO: [baseline] computing (option-wise)...
+[2025-09-28 04:32:04] INFO: [baseline] N=216 | acc=0.6481
+[2025-09-28 04:32:04] INFO: [sample-subspace] extracting per-example orth residual vectors (216 examples)...
+[2025-09-28 04:32:07] INFO:   processed 25/216
+[2025-09-28 04:32:09] INFO:   processed 50/216
+[2025-09-28 04:32:12] INFO:   processed 75/216
+[2025-09-28 04:32:14] INFO:   processed 100/216
+[2025-09-28 04:32:17] INFO:   processed 125/216
+[2025-09-28 04:32:19] INFO:   processed 150/216
+[2025-09-28 04:32:22] INFO:   processed 175/216
+[2025-09-28 04:32:25] INFO:   processed 200/216
+[2025-09-28 04:32:26] INFO:   processed 216/216
+[2025-09-28 04:33:12] INFO: [layer 05] global acc=0.6389 Δ=-0.0093 ᾱ=2.000 nonzero=1.000 | +res acc=0.6389 Δ=-0.0093 ᾱ=2.000 nonzero=1.000 use=1.000 flip=0.000 neg=0.204
+[2025-09-28 04:33:59] INFO: [layer 06] global acc=0.6435 Δ=-0.0046 ᾱ=2.000 nonzero=1.000 | +res acc=0.6435 Δ=-0.0046 ᾱ=2.000 nonzero=1.000 use=1.000 flip=0.000 neg=0.000
+[2025-09-28 04:34:46] INFO: [layer 07] global acc=0.6389 Δ=-0.0093 ᾱ=2.000 nonzero=1.000 | +res acc=0.6389 Δ=-0.0093 ᾱ=2.000 nonzero=1.000 use=1.000 flip=0.000 neg=1.000
+[2025-09-28 04:35:33] INFO: [layer 08] global acc=0.6481 Δ=0.0000 ᾱ=2.000 nonzero=1.000 | +res acc=0.6481 Δ=0.0000 ᾱ=2.000 nonzero=1.000 use=1.000 flip=0.000 neg=0.014
+[2025-09-28 04:36:20] INFO: [layer 09] global acc=0.6481 Δ=0.0000 ᾱ=2.000 nonzero=1.000 | +res acc=0.6481 Δ=0.0000 ᾱ=2.000 nonzero=1.000 use=1.000 flip=0.000 neg=0.977
+[2025-09-28 04:37:07] INFO: [layer 10] global acc=0.6435 Δ=-0.0046 ᾱ=2.000 nonzero=1.000 | +res acc=0.6435 Δ=-0.0046 ᾱ=2.000 nonzero=1.000 use=1.000 flip=0.000 neg=0.671
+[2025-09-28 04:37:54] INFO: [layer 11] global acc=0.6435 Δ=-0.0046 ᾱ=2.000 nonzero=1.000 | +res acc=0.6435 Δ=-0.0046 ᾱ=2.000 nonzero=1.000 use=1.000 flip=0.000 neg=0.000
+[2025-09-28 04:38:41] INFO: [layer 12] global acc=0.6343 Δ=-0.0139 ᾱ=2.000 nonzero=1.000 | +res acc=0.6343 Δ=-0.0139 ᾱ=2.000 nonzero=1.000 use=1.000 flip=0.000 neg=0.995
+[2025-09-28 04:39:28] INFO: [layer 13] global acc=0.6435 Δ=-0.0046 ᾱ=2.000 nonzero=1.000 | +res acc=0.6435 Δ=-0.0046 ᾱ=2.000 nonzero=1.000 use=1.000 flip=0.000 neg=0.148
+[2025-09-28 04:40:15] INFO: [layer 14] global acc=0.6435 Δ=-0.0046 ᾱ=2.000 nonzero=1.000 | +res acc=0.6435 Δ=-0.0046 ᾱ=2.000 nonzero=1.000 use=1.000 flip=0.000 neg=0.741
+[2025-09-28 04:41:02] INFO: [layer 15] global acc=0.6435 Δ=-0.0046 ᾱ=2.000 nonzero=1.000 | +res acc=0.6435 Δ=-0.0046 ᾱ=2.000 nonzero=1.000 use=1.000 flip=0.000 neg=0.741
+[2025-09-28 04:41:49] INFO: [layer 16] global acc=0.6435 Δ=-0.0046 ᾱ=2.000 nonzero=1.000 | +res acc=0.6435 Δ=-0.0046 ᾱ=2.000 nonzero=1.000 use=1.000 flip=0.000 neg=0.995
+[2025-09-28 04:42:35] INFO: [layer 17] global acc=0.6481 Δ=0.0000 ᾱ=2.000 nonzero=1.000 | +res acc=0.6481 Δ=0.0000 ᾱ=2.000 nonzero=1.000 use=1.000 flip=0.000 neg=0.731
+[2025-09-28 04:43:22] INFO: [layer 18] global acc=0.6528 Δ=0.0046 ᾱ=2.000 nonzero=1.000 | +res acc=0.6528 Δ=0.0046 ᾱ=2.000 nonzero=1.000 use=1.000 flip=0.000 neg=1.000
+[2025-09-28 04:44:09] INFO: [layer 19] global acc=0.6435 Δ=-0.0046 ᾱ=2.000 nonzero=1.000 | +res acc=0.6435 Δ=-0.0046 ᾱ=2.000 nonzero=1.000 use=1.000 flip=0.000 neg=0.764
+[2025-09-28 04:44:56] INFO: [layer 20] global acc=0.6389 Δ=-0.0093 ᾱ=2.000 nonzero=1.000 | +res acc=0.6389 Δ=-0.0093 ᾱ=2.000 nonzero=1.000 use=1.000 flip=0.000 neg=0.032
+[2025-09-28 04:45:43] INFO: [layer 21] global acc=0.6389 Δ=-0.0093 ᾱ=2.000 nonzero=1.000 | +res acc=0.6389 Δ=-0.0093 ᾱ=2.000 nonzero=1.000 use=1.000 flip=0.000 neg=0.722
+[2025-09-28 04:46:30] INFO: [layer 22] global acc=0.6435 Δ=-0.0046 ᾱ=2.000 nonzero=1.000 | +res acc=0.6435 Δ=-0.0046 ᾱ=2.000 nonzero=1.000 use=1.000 flip=0.000 neg=0.181
+[2025-09-28 04:47:17] INFO: [layer 23] global acc=0.6435 Δ=-0.0046 ᾱ=2.000 nonzero=1.000 | +res acc=0.6435 Δ=-0.0046 ᾱ=2.000 nonzero=1.000 use=1.000 flip=0.000 neg=0.028
+[2025-09-28 04:48:04] INFO: [layer 24] global acc=0.6435 Δ=-0.0046 ᾱ=2.000 nonzero=1.000 | +res acc=0.6435 Δ=-0.0046 ᾱ=2.000 nonzero=1.000 use=1.000 flip=0.000 neg=0.204
+[2025-09-28 04:48:51] INFO: [layer 25] global acc=0.6389 Δ=-0.0093 ᾱ=2.000 nonzero=1.000 | +res acc=0.6389 Δ=-0.0093 ᾱ=2.000 nonzero=1.000 use=1.000 flip=0.000 neg=0.032
+[2025-10-01 01:12:58] INFO: [split] total=58492 PROBE=200 DEV=216
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards: 100%|██████████████████████████████████████████| 4/4 [00:01<00:00,  2.69it/s]
+[2025-10-01 01:13:00] INFO: [model] /mnt/data/huggingface_cache/models--Qwen--Qwen2-7B-Instruct/snapshots/f2826a00ceef68f0f2b946d945ecc0477ce4450c loaded on cuda:0
+[2025-10-01 01:13:26] INFO: [subspace] extracted in 25.47s | layers=28
+[2025-10-01 01:13:26] INFO: [baseline] computing (option-wise)...
+[2025-10-01 01:13:43] INFO: [baseline] N=216 | acc=0.6481
+[2025-10-01 01:13:43] INFO: [sample-subspace] extracting per-example orth residual vectors (216 examples)...
+[2025-10-01 01:13:45] INFO:   processed 25/216
+[2025-10-01 01:13:48] INFO:   processed 50/216
+[2025-10-01 01:13:50] INFO:   processed 75/216
+[2025-10-01 01:13:53] INFO:   processed 100/216
+[2025-10-01 01:13:55] INFO:   processed 125/216
+[2025-10-01 01:13:58] INFO:   processed 150/216
+[2025-10-01 01:14:01] INFO:   processed 175/216
+[2025-10-01 01:14:03] INFO:   processed 200/216
+[2025-10-01 01:14:05] INFO:   processed 216/216
+
+[2025-10-01 01:15:39] INFO: [layer 09] global acc=0.6759 Δ=0.0018 ᾱ=43.711 nonzero=1.000 | +res acc=0.7269 Δ=0.0787 ᾱ=35.677 nonzero=1.000 use=1.000
+
+[2025-10-01 01:17:13] INFO: [layer 11] global acc=0.6991 Δ=0.0509 ᾱ=44.837 nonzero=1.000 | +res acc=0.7176 Δ=0.0694 ᾱ=36.226 nonzero=1.000 use=1.000

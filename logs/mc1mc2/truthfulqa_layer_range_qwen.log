@@ -1,0 +1,19 @@
+[2025-10-05 03:04:31] INFO: [model] loaded in 3.10s
+[2025-10-05 03:04:31] INFO: [prompt] style=plain system=none
+[2025-10-05 03:04:36] INFO: TruthfulQA split: total=817 PROBE=200 DEV=217
+[2025-10-05 03:05:29] INFO: [subspace] extracted in 52.71s (layers=28)
+[2025-10-05 03:05:29] INFO: [baseline] evaluating 217 samples...
+[2025-10-05 03:05:47] INFO: [baseline] MC1=0.2765 MC2=0.4831
+[2025-10-05 03:05:47] INFO: [sample-subspace] extracting per-example residual vectors...
+[2025-10-05 03:05:49] INFO:   processed 25/217
+[2025-10-05 03:05:52] INFO:   processed 50/217
+[2025-10-05 03:05:54] INFO:   processed 75/217
+[2025-10-05 03:05:56] INFO:   processed 100/217
+[2025-10-05 03:05:58] INFO:   processed 125/217
+[2025-10-05 03:06:00] INFO:   processed 150/217
+[2025-10-05 03:06:02] INFO:   processed 175/217
+[2025-10-05 03:06:05] INFO:   processed 200/217
+[2025-10-05 03:06:06] INFO:   processed 217/217
+[2025-10-05 03:06:06] INFO: [residual] scale=0.000 auto_flip=True log_cos=False
+[2025-10-05 03:07:09] INFO: [range 7-14] global MC1=0.3733 Δ=0.0968 MC2=0.5490 Δ=0.0660 ᾱ=9.890 nonzero=0.199 | +res MC1=0.3733 Δ=0.0968 MC2=0.5522 Δ=0.0691 ᾱ=9.890 nonzero=0.199 use=0.066 flip=0.592 neg=0.592
+

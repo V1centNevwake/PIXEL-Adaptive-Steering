@@ -1,0 +1,128 @@
+(.MS) (base) gpuser1@my-gpu-machine:~/MS$ python -m helpsteer.lasttoken_subspace_injection --model mistralai/Mistral-7B-Instruct-v0.2 --seed 30 --output runs/Reproduce/helpsteer/mistral7b_seed30_injection.jsonl --baseline-output runs/Reproduce/helpsteer/mistral7b_seed30_baseline.jsonl --max-probe 200 --num-samples 18 --layer-index 18 --z-target 0.85 --alpha-clip 0,200 --residual-scale 0.5 --max-new-tokens 256
+/home/gpuser1/MS/.MS/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 240.57it/s]
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 1 | help=4 coh=3 verb=3 | avg_help=4.00
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 2 | help=4 coh=4 verb=4 | avg_help=4.00
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 3 | help=4 coh=4 verb=4 | avg_help=4.00
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 4 | help=4 coh=4 verb=4 | avg_help=4.00
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 5 | help=4 coh=4 verb=4 | avg_help=4.00
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 6 | help=4 coh=4 verb=4 | avg_help=4.00
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 7 | help=4 coh=4 verb=4 | avg_help=4.00
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 8 | help=4 coh=4 verb=4 | avg_help=4.00
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 9 | help=4 coh=4 verb=4 | avg_help=4.00
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 10 | help=4 coh=4 verb=4 | avg_help=4.00
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 11 | help=4 coh=4 verb=4 | avg_help=4.00
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 12 | help=2 coh=1 verb=2 | avg_help=3.83
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 13 | help=4 coh=4 verb=4 | avg_help=3.85
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 14 | help=4 coh=4 verb=4 | avg_help=3.86
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 15 | help=4 coh=4 verb=4 | avg_help=3.87
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 16 | help=4 coh=4 verb=4 | avg_help=3.88
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 17 | help=3 coh=3 verb=3 | avg_help=3.82
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 18 | help=4 coh=4 verb=4 | avg_help=3.83
+Baseline stop condition met at sample 18: avg_help=3.83 >= 3.5
+Baseline finished with 18 samples | avg_help=3.83 avg_coh=3.72 avg_verb=3.78
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Layer 18 finished on 18 samples | avg_help=3.72 avg_coh=3.67 avg_verb=3.61
+Δ vs baseline | help=-0.11 coh=-0.06 verb=-0.17
+(.MS) (base) gpuser1@my-gpu-machine:~/MS$ python -m helpsteer.lasttoken_subspace_injection --model mistralai/Mistral-7B-Instruct-v0.2 --seed 30 --output runs/Reproduce/helpsteer/mistral7b_seed30_injection.jsonl --baseline-output runs/Reproduce/helpsteer/mistral7b_seed30_baseline.jsonl --max-probe 200 --num-samples 18 --layer-index 18 --z-target 0.85 --alpha-clip 0,200 --residual-scale -1 --max-new-tokens 256
+/home/gpuser1/MS/.MS/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards: 100%|███████████████████████████████████████████████████████████████████████████| 3/3 [00:00<00:00, 242.28it/s]
+The following generation flags are not valid and may be ignored: ['temperature']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 1 | help=4 coh=2 verb=2 | avg_help=4.00
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 2 | help=4 coh=4 verb=4 | avg_help=4.00
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 3 | help=4 coh=4 verb=4 | avg_help=4.00
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 4 | help=4 coh=4 verb=4 | avg_help=4.00
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 5 | help=4 coh=4 verb=4 | avg_help=4.00
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 6 | help=4 coh=4 verb=4 | avg_help=4.00
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 7 | help=4 coh=4 verb=4 | avg_help=4.00
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 8 | help=4 coh=4 verb=4 | avg_help=4.00
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 9 | help=4 coh=4 verb=4 | avg_help=4.00
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 10 | help=4 coh=4 verb=4 | avg_help=4.00
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 11 | help=4 coh=4 verb=4 | avg_help=4.00
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 12 | help=2 coh=1 verb=2 | avg_help=3.83
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 13 | help=4 coh=4 verb=4 | avg_help=3.85
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 14 | help=4 coh=4 verb=4 | avg_help=3.86
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 15 | help=4 coh=4 verb=4 | avg_help=3.87
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 16 | help=4 coh=4 verb=4 | avg_help=3.88
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 17 | help=3 coh=3 verb=3 | avg_help=3.82
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Baseline | sample 18 | help=4 coh=4 verb=4 | avg_help=3.83
+Baseline stop condition met at sample 18: avg_help=3.83 >= 3.5
+Baseline finished with 18 samples | avg_help=3.83 avg_coh=3.67 avg_verb=3.72
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Setting `pad_token_id` to `eos_token_id`:2 for open-end generation.
+Layer 18 finished on 18 samples | avg_help=3.83 avg_coh=3.78 avg_verb=3.83
+Δ vs baseline | help=+0.00 coh=+0.11 verb=+0.11

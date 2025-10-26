@@ -1,0 +1,67 @@
+
+/home/gpuser1/MS/.MS/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████| 4/4 [00:01<00:00,  2.67it/s]
+[2025-10-07 03:34:31] INFO: [model] loaded in 1.90s
+[2025-10-07 03:34:31] INFO: [prompt] style=plain system=none
+Using the latest cached version of the dataset since truthful_qa couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'multiple_choice' at /mnt/data/huggingface_cache/datasets/truthful_qa/multiple_choice/0.0.0/741b8276f2d1982aa3d5b832d3ee81ed3b896490 (last modified on Sat Aug 30 00:35:27 2025).
+[2025-10-07 03:34:31] INFO: TruthfulQA split: total=817 PROBE=200 DEV=416
+[2025-10-07 03:35:27] INFO: [subspace] extracted in 55.55s (layers=32)
+[2025-10-07 03:35:27] INFO: [baseline] evaluating 216 samples...
+[2025-10-07 03:35:45] INFO: [baseline] MC1=0.2870 MC2=0.4503
+[2025-10-07 03:35:45] INFO: [sample-subspace] extracting per-example residual vectors...
+[2025-10-07 03:35:48] INFO:   processed 25/216
+[2025-10-07 03:35:50] INFO:   processed 50/216
+[2025-10-07 03:35:53] INFO:   processed 75/216
+[2025-10-07 03:35:55] INFO:   processed 100/216
+[2025-10-07 03:35:57] INFO:   processed 125/216
+[2025-10-07 03:36:00] INFO:   processed 150/216
+[2025-10-07 03:36:02] INFO:   processed 175/216
+[2025-10-07 03:36:04] INFO:   processed 200/216
+[2025-10-07 03:36:06] INFO:   processed 216/216
+[2025-10-07 03:36:06] INFO: [residual] scale=-1.000 auto_flip=True log_cos=False
+[2025-10-07 03:37:20] INFO: [range 0-31] global MC1=0.4028 Δ=0.1157 MC2=0.6056 Δ=0.1554 ᾱ=3.442 nonzero=0.184 | +res MC1=0.4028 Δ=0.1157 MC2=0.6009 Δ=0.1506 ᾱ=2.826 nonzero=0.184 use=0.046 flip=0.499 neg=0.499
+
+=== TruthfulQA prompt multi-token multi-layer injection ===
+Baseline: MC1=0.2870 MC2=0.4503  (N=216)
+
+Range 0-31: global MC1=0.4028 Δ=+0.1157 MC2=0.6056 Δ=+0.1554 ᾱ=3.442 nonzero=0.184
+              +res MC1=0.4028 Δ=+0.1157 MC2=0.6009 Δ=+0.1506 ᾱ=2.826 nonzero=0.184 use=0.046 flip=0.499 neg=0.499
+
+Saved report to: runs/truthfulqa_layer_range_llama.json
+
+
+/home/gpuser1/MS/.MS/lib/python3.12/site-packages/transformers/utils/hub.py:111: FutureWarning: Using `TRANSFORMERS_CACHE` is deprecated and will be removed in v5 of Transformers. Use `HF_HOME` instead.
+  warnings.warn(
+
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading checkpoint shards: 100%|████████████████████████████████████████████████████████████████████████████| 4/4 [00:01<00:00,  2.69it/s]
+[2025-10-07 03:55:17] INFO: [model] loaded in 1.91s
+[2025-10-07 03:55:17] INFO: [prompt] style=plain system=none
+Using the latest cached version of the dataset since truthful_qa couldn't be found on the Hugging Face Hub
+Found the latest cached dataset configuration 'multiple_choice' at /mnt/data/huggingface_cache/datasets/truthful_qa/multiple_choice/0.0.0/741b8276f2d1982aa3d5b832d3ee81ed3b896490 (last modified on Sat Aug 30 00:35:27 2025).
+[2025-10-07 03:55:17] INFO: TruthfulQA split: total=817 PROBE=200 DEV=416
+[2025-10-07 03:56:13] INFO: [subspace] extracted in 55.43s (layers=32)
+[2025-10-07 03:56:13] INFO: [baseline] evaluating 216 samples...
+[2025-10-07 03:56:31] INFO: [baseline] MC1=0.2870 MC2=0.4503
+[2025-10-07 03:56:31] INFO: [sample-subspace] extracting per-example residual vectors...
+[2025-10-07 03:56:34] INFO:   processed 25/216
+[2025-10-07 03:56:36] INFO:   processed 50/216
+[2025-10-07 03:56:39] INFO:   processed 75/216
+[2025-10-07 03:56:41] INFO:   processed 100/216
+[2025-10-07 03:56:43] INFO:   processed 125/216
+[2025-10-07 03:56:46] INFO:   processed 150/216
+[2025-10-07 03:56:48] INFO:   processed 175/216
+[2025-10-07 03:56:50] INFO:   processed 200/216
+[2025-10-07 03:56:52] INFO:   processed 216/216
+[2025-10-07 03:56:52] INFO: [residual] scale=-1.000 auto_flip=True log_cos=False
+[2025-10-07 03:58:04] INFO: [range 0-31] global MC1=0.4167 Δ=0.1296 MC2=0.5876 Δ=0.1374 ᾱ=4.599 nonzero=0.249 | +res MC1=0.4444 Δ=0.1574 MC2=0.5921 Δ=0.1418 ᾱ=3.792 nonzero=0.249 use=0.062 flip=0.499 neg=0.499
+
+=== TruthfulQA prompt multi-token multi-layer injection ===
+Baseline: MC1=0.2870 MC2=0.4503  (N=216)
+
+Range 0-31: global MC1=0.4167 Δ=+0.1296 MC2=0.5876 Δ=+0.1374 ᾱ=4.599 nonzero=0.249
+              +res MC1=0.4634 Δ=+0.1684 MC2=0.5921 Δ=+0.1418 ᾱ=3.792 nonzero=0.249 use=0.062 flip=0.499 neg=0.499
